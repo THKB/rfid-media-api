@@ -270,6 +270,7 @@ public class SLNPClient<N extends AbstractMediaNumber>
 		try { media.setCreated(data.get("AufnahmeDatum")); } catch (Exception e) {}
 		try { media.setDamaged(data.get("Beschaedigt")); } catch (Exception e) {}
 		try { media.setAttachment(data.get("IstBeilage")); } catch (Exception e) {}
+		try { media.setAttachment(data.get("IstBeilage")); } catch (Exception e) {}
 
 		return media;
 	}
