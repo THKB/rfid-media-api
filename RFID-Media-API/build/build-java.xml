@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="build">
+	<target name="build">
+		<mkdir dir="../bin" />
+		<javac includeantruntime="false" srcdir="../src"
+			destdir="../bin" encoding="Cp1252">
+			<classpath>
+				<fileset dir="../lib/feig_id_isc">
+					<include name="OBIDISC4J.jar" />
+				</fileset>
+			</classpath>
+		</javac>
+	</target>
+</project>

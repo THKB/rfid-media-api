@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.13" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <interface id="1" language="java" name="de.thkoeln.bibl.api.rfid.reader.ReaderListener" project="RFID-Media-API" 
+    file="/RFID-Media-API/src/de/thkoeln/bibl/api/rfid/reader/ReaderListener.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="160" width="223" x="192" y="560"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="2" language="java" name="de.thkoeln.bibl.api.rfid.reader.ThreadedReader" project="RFID-Media-API" 
+    file="/RFID-Media-API/src/de/thkoeln/bibl/api/rfid/reader/ThreadedReader.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="267" width="330" x="455" y="560"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="de.thkoeln.bibl.api.rfid.reader.BRMReader" project="RFID-Media-API" 
+    file="/RFID-Media-API/src/de/thkoeln/bibl/api/rfid/reader/BRMReader.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="376" width="342" x="117" y="867"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="de.thkoeln.bibl.api.rfid.reader.Reader" project="RFID-Media-API" 
+    file="/RFID-Media-API/src/de/thkoeln/bibl/api/rfid/reader/Reader.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="483" width="304" x="455" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="de.thkoeln.bibl.api.rfid.reader.ReaderConnection" project="RFID-Media-API" 
+    file="/RFID-Media-API/src/de/thkoeln/bibl/api/rfid/reader/ReaderConnection.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="159" width="169" x="825" y="560"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="6" language="java" name="de.thkoeln.bibl.api.rfid.reader.FrameWorkerListener" project="RFID-Media-API" 
+    file="/RFID-Media-API/src/de/thkoeln/bibl/api/rfid/reader/FrameWorkerListener.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="88" width="232" x="410" y="1717"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="7" language="java" name="de.thkoeln.bibl.api.rfid.reader.HostReader" project="RFID-Media-API" 
+    file="/RFID-Media-API/src/de/thkoeln/bibl/api/rfid/reader/HostReader.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="124" width="286" x="499" y="867"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="de.thkoeln.bibl.api.rfid.reader.ReaderIPConnection" project="RFID-Media-API" 
+    file="/RFID-Media-API/src/de/thkoeln/bibl/api/rfid/reader/ReaderIPConnection.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="178" width="204" x="825" y="867"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="de.thkoeln.bibl.api.rfid.reader.FrameWorker" project="RFID-Media-API" 
+    file="/RFID-Media-API/src/de/thkoeln/bibl/api/rfid/reader/FrameWorker.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="394" width="347" x="42" y="1283"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <generalization id="10">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="5"/>  
+  </generalization>  
+  <association id="11">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="12" name="listener">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="13" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="14">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="15" name="listener">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="16" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="17">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <association id="18">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="19" name="con">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="20" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="21">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </generalization>  
+  <generalization id="22">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

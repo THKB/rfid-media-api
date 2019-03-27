@@ -1,0 +1,11 @@
+<-----------------rfid-media-api.jar----------------->
+<---------------------------------------------------->
+
+
+What is new?
+
+
+version  1.2 (2018-07-31)
+
+- add new ErrorLetter for media borrow state, both out of house
+
