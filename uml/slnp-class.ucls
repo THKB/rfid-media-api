@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.11" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="de.thkoeln.bibl.api.lms.slnp.ConnectResponse" project="RFID-Media-API" 
+    file="/RFID-Media-API/src/de/thkoeln/bibl/api/lms/slnp/ConnectResponse.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="268" x="1847" y="1013"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="2" language="java" name="de.thkoeln.bibl.api.lms.Connectable" project="RFID-Media-API" 
+    file="/RFID-Media-API/src/de/thkoeln/bibl/api/lms/Connectable.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="178" width="218" x="2155" y="1013"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="3" language="java" name="de.thkoeln.bibl.api.lms.slnp.message.Message" project="RFID-Media-API" 
+    file="/RFID-Media-API/src/de/thkoeln/bibl/api/lms/slnp/message/Message.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="304" width="217" x="565" y="525"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="de.thkoeln.bibl.api.lms.slnp.LoginRequest" project="RFID-Media-API" 
+    file="/RFID-Media-API/src/de/thkoeln/bibl/api/lms/slnp/LoginRequest.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="88" width="254" x="822" y="1013"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="de.thkoeln.bibl.api.lms.slnp.message.RequestMessage" project="RFID-Media-API" 
+    file="/RFID-Media-API/src/de/thkoeln/bibl/api/lms/slnp/message/RequestMessage.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="268" width="217" x="565" y="1013"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="6" language="java" name="de.thkoeln.bibl.api.lms.slnp.message.ResponseMessage.MessageType" 
+    project="RFID-Media-API" file="/RFID-Media-API/src/de/thkoeln/bibl/api/lms/slnp/message/ResponseMessage.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="232" width="246" x="563" y="1773"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="7" language="java" name="de.thkoeln.bibl.api.lms.slnp.MediaSearchResponse" project="RFID-Media-API" 
+    file="/RFID-Media-API/src/de/thkoeln/bibl/api/lms/slnp/MediaSearchResponse.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="106" width="240" x="1396" y="2045"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="de.thkoeln.bibl.api.lms.slnp.message.ConnectResponseMessage" 
+    project="RFID-Media-API" file="/RFID-Media-API/src/de/thkoeln/bibl/api/lms/slnp/message/ConnectResponseMessage.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="304" width="227" x="41" y="1393"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="9" language="java" name="de.thkoeln.bibl.api.lms.Searchable" project="RFID-Media-API" 
+    file="/RFID-Media-API/src/de/thkoeln/bibl/api/lms/Searchable.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="232" x="2011" y="525"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="10" language="java" name="de.thkoeln.bibl.api.lms.slnp.transfer.MultiDataResponse" project="RFID-Media-API" 
+    file="/RFID-Media-API/src/de/thkoeln/bibl/api/lms/slnp/transfer/MultiDataResponse.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="196" width="371" x="1396" y="1773"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="de.thkoeln.bibl.api.lms.slnp.message.ResponseMessage" project="RFID-Media-API" 
+    file="/RFID-Media-API/src/de/thkoeln/bibl/api/lms/slnp/message/ResponseMessage.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="340" width="217" x="308" y="1013"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="de.thkoeln.bibl.api.lms.slnp.transfer.DefaultResponse" project="RFID-Media-API" 
+    file="/RFID-Media-API/src/de/thkoeln/bibl/api/lms/slnp/transfer/DefaultResponse.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="88" width="206" x="1601" y="1013"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="de.thkoeln.bibl.api.lms.slnp.transfer.Transfer" project="RFID-Media-API" 
+    file="/RFID-Media-API/src/de/thkoeln/bibl/api/lms/slnp/transfer/Transfer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="447" width="206" x="1601" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="de.thkoeln.bibl.api.lms.slnp.MediaSearchRequest" project="RFID-Media-API" 
+    file="/RFID-Media-API/src/de/thkoeln/bibl/api/lms/slnp/MediaSearchRequest.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="142" width="445" x="1116" y="1013"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="15" language="java" name="de.thkoeln.bibl.api.lms.slnp.message.ResponseMessage.MessageCode" 
+    project="RFID-Media-API" file="/RFID-Media-API/src/de/thkoeln/bibl/api/lms/slnp/message/ResponseMessage.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="340" width="234" x="308" y="1393"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="16" language="java" name="de.thkoeln.bibl.api.lms.slnp.SLNPConnection" project="RFID-Media-API" 
+    file="/RFID-Media-API/src/de/thkoeln/bibl/api/lms/slnp/SLNPConnection.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="448" width="312" x="2283" y="525"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="de.thkoeln.bibl.api.lms.slnp.transfer.DataResponse" project="RFID-Media-API" 
+    file="/RFID-Media-API/src/de/thkoeln/bibl/api/lms/slnp/transfer/DataResponse.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="178" width="226" x="1601" y="1393"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="de.thkoeln.bibl.api.lms.slnp.transfer.Request" project="RFID-Media-API" 
+    file="/RFID-Media-API/src/de/thkoeln/bibl/api/lms/slnp/transfer/Request.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="196" width="261" x="1116" y="525"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="de.thkoeln.bibl.api.lms.slnp.LoginResponse" project="RFID-Media-API" 
+    file="/RFID-Media-API/src/de/thkoeln/bibl/api/lms/slnp/LoginResponse.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="88" width="195" x="1807" y="1773"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="de.thkoeln.bibl.api.lms.slnp.Credentials" project="RFID-Media-API" 
+    file="/RFID-Media-API/src/de/thkoeln/bibl/api/lms/slnp/Credentials.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="196" width="189" x="2413" y="1013"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="de.thkoeln.bibl.api.lms.slnp.transfer.Response" project="RFID-Media-API" 
+    file="/RFID-Media-API/src/de/thkoeln/bibl/api/lms/slnp/transfer/Response.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="232" width="224" x="1601" y="525"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="de.thkoeln.bibl.api.lms.slnp.SLNPClient" project="RFID-Media-API" 
+    file="/RFID-Media-API/src/de/thkoeln/bibl/api/lms/slnp/SLNPClient.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="448" width="456" x="2146" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <generalization id="23">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="24">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="21"/>  
+  </generalization>  
+  <generalization id="25">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="13"/>  
+  </generalization>  
+  <association id="26">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="27" name="cred">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="28" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="29">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="18"/>  
+  </generalization>  
+  <generalization id="30">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="17"/>  
+  </generalization>  
+  <realization id="31">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <nesting id="32">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="15"/>  
+  </nesting>  
+  <association id="33">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="34" name="refCon">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="35" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="36">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="9"/>  
+  </realization>  
+  <association id="37">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="38" name="code">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="39" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="40">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="10"/>  
+  </generalization>  
+  <generalization id="41">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="42">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="11"/>  
+  </generalization>  
+  <association id="43">    
+    <bendpoint x="1887" y="525"/>    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="44" name="con">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="45" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="46">    
+    <bendpoint x="572" y="1393"/>    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="6"/>  
+  </nesting>  
+  <generalization id="47">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="21"/>  
+  </generalization>  
+  <association id="48">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="49" name="messages">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="50" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="51">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="13"/>  
+  </generalization>  
+  <generalization id="52">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="12"/>  
+  </generalization>  
+  <generalization id="53">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="18"/>  
+  </generalization>  
+  <association id="54">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="55" name="type">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="56" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="57">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="17"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
